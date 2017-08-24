@@ -1,0 +1,13 @@
+<div class="jumbotron">
+    <h1>Blogist</h1>
+    <p>This is the best resource for the best web development posts.</p>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-12">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let post of posts">
+                <h4>{{post.title}}</h4>
+            </li>
+        </ul>
+    </div>
+</div>
