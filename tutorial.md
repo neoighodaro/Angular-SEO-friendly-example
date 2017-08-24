@@ -6,7 +6,7 @@ For Instance, Angular 4 applications load the first bare HTML content before pul
 Although [Google says](https://webmasters.googleblog.com/2014/05/understanding-web-pages-better.html) their bots are now capable of rendering JavaScript, it is still a vague area and erring on the side of caution would be a better way to go in this matter. Also, there are other search engines that do not handle JavaScript. This article will cover how to make your Angular 4 application SEO friendly and thus easier to consume by search engines bots.
 
 
-> 💡 This is not an Angular 4 tutorial and we will not be covering specifics on the Angular 4 framework. We will simply be showing you how to use server side rendering to serve a fully generated HTML page.
+> ⚠️ This is not an Angular 4 tutorial and we will not be covering specifics on the Angular 4 framework. We will simply be showing you how to use server side rendering to serve a fully generated HTML page.
 
 
 ## Getting started with making our Angular 4 app SEO friendly
