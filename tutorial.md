@@ -105,12 +105,12 @@ Then in the `NgModule` declarations array, add the `PostsComponent` to the list:
  Now when you run `ng serve` and go to the URL provided to you after the application is done building, you should be able to see the page with our posts:
  
 
-![How to make your Angular 4 app SEO friendly](https://www.dropbox.com/s/b1g3uga1mercokb/make-angular-4-app-seo-friendly-1.png?dl=1)
+![How to make your Angular 4 app SEO friendly](https://dl.dropbox.com/s/b1g3uga1mercokb/make-angular-4-app-seo-friendly-1.png)
 
 
 Great, that is exactly what we expected. However, when you view the URL’s source, you will notice that the entire body of the page is missing and just the `<app-root>loading…</app-root>` message is visible.
 
-![How to make your Angular 4 app SEO friendly](https://www.dropbox.com/s/jduf7lbrewpib9i/make-angular-4-app-seo-friendly-2.png?dl=1)
+![How to make your Angular 4 app SEO friendly](https://dl.dropbox.com/s/jduf7lbrewpib9i/make-angular-4-app-seo-friendly-2.png)
 
 
 This is because of the way Angular works. It would load the parent template first, then after that load, it will then start the DOM manipulation processes that will insert the content of each subsequent page in the `<app-root>` tag.
@@ -260,13 +260,13 @@ Once you have finished making these changes to the application, go to the termin
 This will run the `prestart` script which contains the commands `ng build --prod && ./node_modules/.bin/ngc` and then run the script *start* which contains the command `ts-node src/server.ts`. Once the commands are completed, you should see an output close to this on your terminal:
 
 
-![How to make your Angular 4 app SEO friendly](https://www.dropbox.com/s/09dcv3ndvjsoen2/make-angular-4-app-seo-friendly-4.png?dl=1)
+![How to make your Angular 4 app SEO friendly](https://dl.dropbox.com/s/09dcv3ndvjsoen2/make-angular-4-app-seo-friendly-4.png)
 
 
 So now, when you visit the page, you should still see the same output as you saw before, but now, when you visit the page and view the source, you should see the fully rendered HTML. This would be how the search engine bots will see the page.
 
 
-![How to make your Angular 4 app SEO friendly](https://www.dropbox.com/s/aylgn7wfokg7tnl/make-angular-4-app-seo-friendly-3.png?dl=1)
+![How to make your Angular 4 app SEO friendly](https://dropbox.com/s/aylgn7wfokg7tnl/make-angular-4-app-seo-friendly-3.png)
 
 ## Conclusion
 
