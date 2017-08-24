@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { PostsComponent } from './blog/posts.component';
 
@@ -10,7 +9,7 @@ import { PostsComponent } from './blog/posts.component';
     PostsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule.withServerTransition({appId: 'blogist'})
   ],
   providers: [],
   bootstrap: [AppComponent]
