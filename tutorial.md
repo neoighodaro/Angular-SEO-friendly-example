@@ -266,7 +266,7 @@ This will run the `prestart` script which contains the commands `ng build --prod
 So now, when you visit the page, you should still see the same output as you saw before, but now, when you visit the page and view the source, you should see the fully rendered HTML. This would be how the search engine bots will see the page.
 
 
-![How to make your Angular 4 app SEO friendly](https://dropbox.com/s/aylgn7wfokg7tnl/make-angular-4-app-seo-friendly-3.png)
+![How to make your Angular 4 app SEO friendly](https://dl.dropbox.com/s/aylgn7wfokg7tnl/make-angular-4-app-seo-friendly-3.png)
 
 ## Conclusion
 
