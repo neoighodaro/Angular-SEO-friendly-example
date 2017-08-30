@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-posts',
@@ -7,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-  public posts
+  public posts;
 
-  constructor() {
-    this.posts = this.postsData()
+  constructor(meta: Meta, title: Title) {
+    this.posts = this.postsData();
+
+    title.setTitle('Blogist');
+    meta.addTags([
+      { name: 'author', content: 'Blogist' },
+      { name: 'description', content: 'This is a description.' },
+    ]);
   }
 
   ngOnInit() {
